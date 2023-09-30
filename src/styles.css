@@ -1,0 +1,106 @@
+body {
+  font-family: "Hanken Grotesk";
+}
+
+h1 {
+  font-size: 75px;
+  position: relative;
+  bottom: -50px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  opacity: 0.7;
+  font-size: 20px;
+  position: relative;
+  top: -25px;
+}
+
+p {
+  opacity: 0.7;
+  line-height: 1.5;
+}
+li {
+  list-style: none;
+  border-radius: 10px;
+  padding: 10px 0;
+  margin: 0 auto;
+  max-width: 400px;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 5px 75px;
+  font-size: 13px;
+  background: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  line-height: 22px;
+  border-radius: 30px;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+}
+.container {
+  width: 1440px;
+  padding: 40px;
+  margin: 20px auto;
+}
+.result {
+  border: 1px solid blue;
+  border-radius: 30px;
+  background: hsl(252, 100%, 67%);
+  color: white;
+  font-family: sans-serif;
+  padding: 60px;
+  width: 350px;
+  margin-top: 200px;
+  text-align: center;
+}
+.percentage {
+  border-radius: 50%;
+  background: hsla(256, 72%, 46%, 1);
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  position: relative;
+  left: -5px;
+}
+.percentagee {
+  opacity: 0.7;
+  position: relative;
+  bottom: -40px;
+}
+.summary {
+  border-radius: 35px;
+  padding: 60px;
+  position: relative;
+  left: -7px;
+  width: 350px;
+  margin-top: 200px;
+  text-align: center;
+}
+.heading-summary {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 60px;
+  top: -10px;
+}
+
+.percent {
+  opacity: 0.7;
+}
+.min {
+  font-weight: bold;
+}
+.reaction {
+  color: hsl(0, 100%, 67%);
+}
+.memory {
+  color: hsl(39, 100%, 56%);
+}
+.verbal {
+  color: hsl(166, 100%, 37%);
+}
+.visual {
+  color: hsl(234, 85%, 45%);
+}
