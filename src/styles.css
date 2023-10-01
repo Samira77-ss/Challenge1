@@ -48,6 +48,13 @@ button {
   transition: all 200ms ease;
   box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
 }
+footer {
+  text-align: center;
+  margin: 20px auto;
+}
+a {
+  text-decoration: none;
+}
 button:hover {
   background: #ffff;
   color: hsl(224, 30%, 27%);
