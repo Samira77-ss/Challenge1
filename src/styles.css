@@ -1,7 +1,10 @@
 body {
-  font-family: "Hanken Grotesk";
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 h1 {
   font-size: 75px;
   position: relative;
@@ -20,34 +23,43 @@ h3 {
 p {
   opacity: 0.7;
   line-height: 1.5;
+  font-size: 18px;
 }
 li {
   list-style: none;
   border-radius: 10px;
+  width: 230px;
   padding: 10px 0;
-  margin: 0 auto;
+  margin: 15px auto;
   max-width: 400px;
+  border: 1px solid rgb(221, 217, 217);
+  position: relative;
+  right: 20px;
 }
 button {
   display: block;
   margin: 20px auto;
-  padding: 5px 75px;
+  padding: 10px 95px;
   font-size: 13px;
   background: hsl(224, 30%, 27%);
   color: hsl(0, 0%, 100%);
   line-height: 22px;
   border-radius: 30px;
+  transition: all 200ms ease;
   box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
 }
+button:hover {
+  background: #ffff;
+  color: hsl(224, 30%, 27%);
+}
 .container {
-  width: 1440px;
-  padding: 40px;
-  margin: 20px auto;
+  display: flex;
+  justify-content: center;
 }
 .result {
   border: 1px solid blue;
   border-radius: 30px;
-  background: hsl(252, 100%, 67%);
+  background: #6441fd;
   color: white;
   font-family: sans-serif;
   padding: 60px;
@@ -57,7 +69,7 @@ button {
 }
 .percentage {
   border-radius: 50%;
-  background: hsla(256, 72%, 46%, 1);
+  background: #4925cf;
   width: 200px;
   height: 200px;
   margin: 15px;
@@ -103,4 +115,16 @@ button {
 }
 .visual {
   color: hsl(234, 85%, 45%);
+}
+.reaction-r {
+  background: #fff6f5;
+}
+.memory-m {
+  background: #fffbf2;
+}
+.verbal-v {
+  background: #f2fbfa;
+}
+.visual-v {
+  background: #f3f3fd;
 }
